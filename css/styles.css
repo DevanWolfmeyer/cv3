@@ -1,0 +1,241 @@
+/*************************************************************/
+/*******************  Page Wide SELECTORS  *******************/
+/*************************************************************/
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat, sans-serif';
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*************************************************************/
+/*********************  Nav Bar Section  *********************/
+/*************************************************************/
+
+/*********************  CLASS SELECTORS  *********************/
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/*************************************************************/
+/**********************  Title Section  **********************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.big-heading{
+  font-size: 4.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/*********************  Media SELECTORS  *********************/
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*************************************************************/
+/*********************  Feature Section  *********************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.feature-box{
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.features-image{
+  color: #ef8172;
+  font-size: 300%;
+  margin-bottom: 1rem;
+}
+
+.features-image:hover{
+   color: #ff4c68;
+}
+
+/*************************************************************/
+/*******************  Testimonial Section  *******************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*************************************************************/
+/**********************  Press Section  **********************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*************************************************************/
+/*********************  Pricing Section  *********************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#pricing{
+  padding: 100px;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/*************************************************************/
+/******************  Call To Action Section  *****************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.cta-heading{
+  font-family: "Montserrat"
+  font-weight:900;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*************************************************************/
+/******************  Call To Action Section  *****************/
+/*************************************************************/
+
+/**********************  ID SELECTORS  ***********************/
+
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+/*********************  CLASS SELECTORS  *********************/
+
+.social-icon{
+  padding: 0 10px;
+}
